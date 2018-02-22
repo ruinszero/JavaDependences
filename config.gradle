@@ -1,1 +1,80 @@
-
+ext {
+    deps:
+    [
+            //依赖注入
+            "butterknife"               : "com.jakewharton:butterknife:8.+",
+            "butterknife_compiler"      : "com.jakewharton:butterknife-compiler:8.+",
+            "dagger2"                   : "com.google.dagger:dagger:2.+",
+            "dagger2_compiler"          : "com.google.dagger:dagger-compiler:2.+",
+            "dagger2_android"           : "com.google.dagger:dagger-android:2.+",
+            "dagger2_android_support"   : "com.google.dagger:dagger-android-support:2.+",
+            "dagger2_android_compiler"  : "com.google.dagger:dagger-android-processor:2.+",
+            //rx 相关
+            "rxjava2"                   : "io.reactivex.rxjava2:rxjava:2.+",
+            "rxjava2_android"           : "io.reactivex.rxjava2:rxandroid:2.+",
+            "rxkotlin"                  : "io.reactivex.rxjava2:rxkotlin:2.+",
+            //RxBinding
+            "rxbinding"                 : "com.jakewharton.rxbinding2:rxbinding:2.+",
+            "rxbinding_support_v4"      : "com.jakewharton.rxbinding2:rxbinding-support-v4:2.+",
+            "rxbinding_appcompat_v7"    : "com.jakewharton.rxbinding2:rxbinding-appcompat-v7:2.+",
+            "rxbinding_design"          : "com.jakewharton.rxbinding2:rxbinding-design:2.+",
+            "rxbinding_recyclerview_v7" : "com.jakewharton.rxbinding2:rxbinding-recyclerview-v7:2.+",
+            "rxbinding_leanback_v17"    : "com.jakewharton.rxbinding2:rxbinding-leanback-v17:2.+",
+            //日志
+            "log"                       : "com.orhanobut:logger:2.+",
+            //异常页面
+            "crash"                     : "cat.ereza:customactivityoncrash:2.+",
+            //数据库相关
+            "room"                      : "android.arch.persistence.room:runtime:1.0.0",
+            "room_processor"            : "android.arch.persistence.room:compiler:1.0.0",
+            "room_rxjava"               : "android.arch.persistence.room:rxjava2:1.0.0",
+            "room_test"                 : "android.arch.persistence.room:testing:1.0.0",
+            //Recyclerview
+            "baseAdapter"               : "com.github.CymChad:BaseRecyclerViewAdapterHelper:2.+",
+            //json 相关
+            "gson"                      : "com.google.code.gson:gson:2.+",
+            "jackson"                   : "com.fasterxml.jackson.core:jackson-databind:2.9.4",
+            //bugly
+            "bugly"                     : "com.tencent.bugly:crashreport_upgrade:1.+",
+            //圆角图片
+            "circle"                    : "de.hdodenhof:circleimageview:2.+",
+            //消息总线
+            "eventbus"                  : "org.greenrobot:eventbus:3.+",
+            //网络请求
+            "okhttp"                    : "com.squareup.okhttp3:okhttp:3.+",
+            "okhttp_log"                : "com.squareup.okhttp3:logging-interceptor:3.+",
+            "retrofit2"                 : "com.squareup.retrofit2:retrofit:2.+",
+            "retrofit2_gson"            : "com.squareup.retrofit2:converter-gson:2.+",
+            "retrofit2_rxjava2"         : "com.squareup.retrofit2:adapter-rxjava2:2.+",
+            //支持库
+            "design"                    : "com.android.support:design:latest.integration",
+            "support"                   : "com.android.support:support-v4:latest.integration",
+            "cardview"                  : "com.android.support:cardview-v7:latest.integration",
+            "recyclerview"              : "com.android.support:recyclerview-v7:latest.integration",
+            "support_v7"                : "com.android.support:appcompat-v7:latest.integration",
+            //权限相关
+            "rxpermissions"             : "com.tbruyelle.rxpermissions2:rxpermissions:0.9.4@aar",
+            //Lifecycles
+            "lifecycles_extensions"     : "android.arch.lifecycle:extensions:1.0.0",
+            "lifecycles_java8"          : "android.arch.lifecycle:common-java8:1.0.0",
+            "lifecycles_reactivestreams": "android.arch.lifecycle:reactivestreams:1.0.0",
+            //ARouter
+            "ARouter_Api"               : "com.alibaba:arouter-api:1.+",
+            "ARouter_annotation"        : "com.alibaba:arouter-annotation:1.+",
+            "ARouter_compiler"          : "com.alibaba:arouter-compiler:1.+",
+            "ARouter_service"           : "com.google.auto.service:auto-service:1.+",
+            //侧滑删除
+            "SwipeDelMenuLayout"        : "com.github.mcxtzhang:SwipeDelMenuLayout:V1.3.0",
+            //状态栏
+            "statusbarutil"             : "com.jaeger.statusbarutil:library:1.+",
+            //Fab
+            "Fab"                       : "com.getbase:floatingactionbutton:1.+",
+            //Spinner
+            "Material_Spinner"          : "com.jaredrummler:material-spinner:1.+",
+            //底部导航栏
+            "BottomBar"                 : "com.ashokvarma.android:bottom-navigation-bar:2.0.2",
+            //Glide
+            "glide"                     : "com.github.bumptech.glide:glide:4.4.0",
+            "glide_annotation"          : "com.github.bumptech.glide:compiler:4.4.0"
+    ]
+}
