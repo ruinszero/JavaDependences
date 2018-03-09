@@ -39,11 +39,11 @@ ext {
     //消息总线
     eventbus = "org.greenrobot:eventbus:3.+"
     //网络请求
-    okhttp = "com.squareup.okhttp3:okhttp:3.+"
-    okhttp_log = "com.squareup.okhttp3:logging-interceptor:3.+"
-    retrofit2 = "com.squareup.retrofit2:retrofit:2.+"
-    retrofit2_gson = "com.squareup.retrofit2:converter-gson:2.+"
-    retrofit2_rxjava2 = "com.squareup.retrofit2:adapter-rxjava2:2.+"
+    okhttp = "com.squareup.okhttp3:okhttp:3.10.0"
+    okhttp_log = "com.squareup.okhttp3:logging-interceptor:3.10.0"
+    retrofit2 = "com.squareup.retrofit2:retrofit:2.3.0"
+    retrofit2_gson = "com.squareup.retrofit2:converter-gson:2.3.0"
+    retrofit2_rxjava2 = "com.squareup.retrofit2:adapter-rxjava2:2.3.0"
     //支持库
     design = "com.android.support:design:27.0.2"
     support = "com.android.support:support-v4:27.0.2"
