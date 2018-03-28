@@ -22,11 +22,6 @@ ext {
     log = "com.orhanobut:logger:2.+"
     //异常页面
     crash = "cat.ereza:customactivityoncrash:2.+"
-    //数据库相关
-    room = "android.arch.persistence.room:runtime:1.0.0"
-    room_processor = "android.arch.persistence.room:compiler:1.0.0"
-    room_rxjava = "android.arch.persistence.room:rxjava2:1.0.0"
-    room_test = "android.arch.persistence.room:testing:1.0.0"
     //Recyclerview
     baseAdapter = "com.github.CymChad:BaseRecyclerViewAdapterHelper:2.+"
     //json 相关
@@ -52,10 +47,26 @@ ext {
     support_v7 = "com.android.support:appcompat-v7:27.1.0"
     //权限相关
     rxpermissions = "com.tbruyelle.rxpermissions2:rxpermissions:0.9.4@aar"
+    
+    //=================== Architecture Components ===================//
     //Lifecycles
-    lifecycles_extensions = "android.arch.lifecycle:extensions:1.1.0"
-    lifecycles_java8 = "android.arch.lifecycle:common-java8:1.1.0"
+    // ViewModel and LiveData
+    lifecycles_extensions = "android.arch.lifecycle:extensions:1.1.1"
+    // alternatively, just ViewModel
+    ViewModel = "android.arch.lifecycle:viewmodel:1.1.1"
+    // alternatively, just LiveData
+    LiveData = "android.arch.lifecycle:livedata:1.1.1"
+    lifecycle_compiler = "android.arch.lifecycle:compiler:1.1.1"
+    // Java8 support for Lifecycles
+    lifecycles_java8 = "android.arch.lifecycle:common-java8:1.1.1"
     lifecycles_reactivestreams = "android.arch.lifecycle:reactivestreams:1.1.0"
+     //数据库相关
+    room = "android.arch.persistence.room:runtime:1.0.0"
+    room_processor = "android.arch.persistence.room:compiler:1.0.0"
+    room_rxjava = "android.arch.persistence.room:rxjava2:1.0.0"
+    room_test = "android.arch.persistence.room:testing:1.0.0"
+    //=================== Architecture Components ===================//
+    
     //ARouter
     ARouter_Api = "com.alibaba:arouter-api:1.+"
     ARouter_annotation = "com.alibaba:arouter-annotation:1.+"
