@@ -88,5 +88,9 @@ ext {
     //SP 相关
     treasure = "com.baoyz.treasure:treasure:0.7.4"
     treasure_compiler = "com.baoyz.treasure:treasure-compiler:0.7.4"
+    //RunisAndroid
+    RunisAndroid = "com.github.ruinszero:RuinsAndroid:v1.0.4"
+    //SweetDialog
+    SweetDialog = "com.github.ruinszero:SweetDialog:v1.0.1"
 
 }
