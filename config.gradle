@@ -23,7 +23,7 @@ ext {
     //异常页面
     crash = "cat.ereza:customactivityoncrash:2.+"
     //Recyclerview
-    baseAdapter = "com.github.CymChad:BaseRecyclerViewAdapterHelper:2.+"
+    baseAdapter = "com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.42"
     //json 相关
     gson = "com.google.code.gson:gson:2.+"
     jackson = "com.fasterxml.jackson.core:jackson-databind:2.9.4"
