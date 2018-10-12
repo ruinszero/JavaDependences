@@ -1,12 +1,12 @@
 ext {
     //依赖注入
-    butterknife = "com.jakewharton:butterknife:8.+"
-    butterknife_compiler = "com.jakewharton:butterknife-compiler:8.+"
-    dagger2 = "com.google.dagger:dagger:2.+"
-    dagger2_compiler = "com.google.dagger:dagger-compiler:2.+"
-    dagger2_android = "com.google.dagger:dagger-android:2.+"
-    dagger2_android_support = "com.google.dagger:dagger-android-support:2.+"
-    dagger2_android_compiler = "com.google.dagger:dagger-android-processor:2.+"
+    butterknife = "com.jakewharton:butterknife:9.+"
+    butterknife_compiler = "com.jakewharton:butterknife-compiler:9.+"
+    dagger2 = "com.google.dagger:dagger:2.16"
+    dagger2_compiler = "com.google.dagger:dagger-compiler:2.16"
+    dagger2_android = "com.google.dagger:dagger-android:2.16"
+    dagger2_android_support = "com.google.dagger:dagger-android-support:2.16"
+    dagger2_android_compiler = "com.google.dagger:dagger-android-processor:2.16"
     //rx 相关
     rxjava2 = "io.reactivex.rxjava2:rxjava:2.+"
     rxjava2_android = "io.reactivex.rxjava2:rxandroid:2.+"
