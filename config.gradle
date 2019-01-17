@@ -32,7 +32,7 @@ ext {
     recovery = "com.zxy.android:recovery:1.0.0"
     
     //RecyclerViewAdapter
-    baseAdapter = "com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.46"
+    base_adapter = "com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.46"
 
     //json 相关
     gson = "com.google.code.gson:gson:2.+"
