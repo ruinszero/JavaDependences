@@ -133,12 +133,14 @@ ext {
     glide = "com.github.bumptech.glide:glide:4.8.0"
     glide_annotation = "com.github.bumptech.glide:compiler:4.8.0"
 
+    //Picasso
+    picasso = "com.squareup.picasso:picasso:2.71828"
     //SP 相关
     treasure = "com.baoyz.treasure:treasure:0.7.4"
     treasure_compiler = "com.baoyz.treasure:treasure-compiler:0.7.4"
 
     //RunisAndroid
-    runis_android = "com.github.ruinszero:RuinsAndroid:v1.0.4"
+    runis_android = "com.github.ruinszero:RuinsAndroid:v1.1.1"
 
     //SweetDialog
     sweet_dialog = "com.github.ruinszero:SweetDialog:v1.0.1"
