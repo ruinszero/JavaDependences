@@ -81,7 +81,7 @@ ext {
     // alternatively - Lifecycles only (no ViewModel or LiveData). Some UI
     //     AndroidX libraries use this lightweight import for Lifecycle
     lifecycle_runtime =  "androidx.lifecycle:lifecycle-runtime:$lifecycle_version"
-    lifecycle_compiler "androidx.lifecycle:lifecycle-compiler:$lifecycle_version" // use kapt for Kotlin
+    lifecycle_compiler = "androidx.lifecycle:lifecycle-compiler:$lifecycle_version" // use kapt for Kotlin
     // alternately - if using Java8, use the following instead of lifecycle-compiler
     lifecycle_common_java8 = "androidx.lifecycle:lifecycle-common-java8:$lifecycle_version"
     // optional - ReactiveStreams support for LiveData
