@@ -14,7 +14,7 @@ ext {
     rxkotlin = "io.reactivex.rxjava2:rxkotlin:2.+"
 
     //RxBinding
-    rxbinding = "com.jakewharton.rxbinding2:rxbinding:3.0.0-alpha2"
+    rxbinding = "com.jakewharton.rxbinding3:rxbinding:3.0.0-alpha2"
     rxbinding_core = "com.jakewharton.rxbinding3:rxbinding-core:3.0.0-alpha2" 
     rxbinding_appcompat = "com.jakewharton.rxbinding3:rxbinding-appcompat:3.0.0-alpha2"
     rxbinding_drawerlayout = "com.jakewharton.rxbinding3:rxbinding-drawerlayout:3.0.0-alpha2"
@@ -62,7 +62,7 @@ ext {
     androidx_constraintlayout = "androidx.constraintlayout:constraintlayout:1.1.3"
 
     //权限相关
-    rxpermissions = "com.tbruyelle.rxpermissions2:rxpermissions:0.10.2"
+    rxpermissions = "com.github.tbruyelle:rxpermissions:0.10.2"
     
     //android ktx 
     ktx = "androidx.core:core-ktx:1.0.0-alpha1"
@@ -88,8 +88,8 @@ ext {
     lifecycle_reactivestreams = "androidx.lifecycle:lifecycle-reactivestreams:$lifecycle_version"
     lifecycle_reactivestreams_ktx = "androidx.lifecycle:lifecycle-reactivestreams-ktx:$lifecycle_version"
 
-     //Room
-     def room_version = "2.1.0-alpha03"
+    //Room
+    def room_version = "2.1.0-alpha03"
     room = "androidx.room:room-runtime:$room_version"
     room_processor = "androidx.room:room-compiler:$room_version"
     // optional - RxJava support for Room
@@ -140,7 +140,7 @@ ext {
     treasure_compiler = "com.baoyz.treasure:treasure-compiler:0.7.4"
 
     //RunisAndroid
-    runis_android = "com.github.ruinszero:RuinsAndroid:v1.1.1"
+    ruins_android = "com.github.ruinszero:RuinsAndroid:v1.1.1"
 
     //SweetDialog
     sweet_dialog = "com.github.ruinszero:SweetDialog:v1.0.1"
