@@ -14,17 +14,18 @@ ext {
     rxkotlin = "io.reactivex.rxjava2:rxkotlin:2.+"
 
     //RxBinding
-    rxbinding = "com.jakewharton.rxbinding3:rxbinding:3.1.0"
-    rxbinding_core = "com.jakewharton.rxbinding3:rxbinding-core:3.1.0" 
-    rxbinding_appcompat = "com.jakewharton.rxbinding3:rxbinding-appcompat:3.1.0"
-    rxbinding_drawerlayout = "com.jakewharton.rxbinding3:rxbinding-drawerlayout:3.1.0"
-    rxbinding_leanback = "com.jakewharton.rxbinding3:rxbinding-leanback:3.1.0"
-    rxbinding_recyclerview = "com.jakewharton.rxbinding3:rxbinding-recyclerview:3.1.0"
-    rxbinding_slidingpanelayout = "com.jakewharton.rxbinding3:rxbinding-slidingpanelayout:3.1.0"
-    rxbinding_swiperefreshlayout = "com.jakewharton.rxbinding3:rxbinding-swiperefreshlayout:3.1.0"
-    rxbinding_viewpager = "com.jakewharton.rxbinding3:rxbinding-viewpager:3.1.0"
-    rxbinding_viewpager2 = "com.jakewharton.rxbinding3:rxbinding-viewpager2:3.1.0"
-    rxbinding_material = "com.jakewharton.rxbinding3:rxbinding-material:3.1.02"
+    def rxbinding_version = "3.1.0"
+    rxbinding = "com.jakewharton.rxbinding3:rxbinding:$rxbinding_version"
+    rxbinding_core = "com.jakewharton.rxbinding3:rxbinding-core:$rxbinding_version" 
+    rxbinding_appcompat = "com.jakewharton.rxbinding3:rxbinding-appcompat:$rxbinding_version"
+    rxbinding_drawerlayout = "com.jakewharton.rxbinding3:rxbinding-drawerlayout:$rxbinding_version"
+    rxbinding_leanback = "com.jakewharton.rxbinding3:rxbinding-leanback:$rxbinding_version"
+    rxbinding_recyclerview = "com.jakewharton.rxbinding3:rxbinding-recyclerview:$rxbinding_version"
+    rxbinding_slidingpanelayout = "com.jakewharton.rxbinding3:rxbinding-slidingpanelayout:$rxbinding_version"
+    rxbinding_swiperefreshlayout = "com.jakewharton.rxbinding3:rxbinding-swiperefreshlayout:$rxbinding_version"
+    rxbinding_viewpager = "com.jakewharton.rxbinding3:rxbinding-viewpager:$rxbinding_version"
+    rxbinding_viewpager2 = "com.jakewharton.rxbinding3:rxbinding-viewpager2:$rxbinding_version"
+    rxbinding_material = "com.jakewharton.rxbinding3:rxbinding-material:$rxbinding_version"
  
 
     //异常页面
@@ -47,8 +48,8 @@ ext {
     okhttp = "com.squareup.okhttp3:okhttp:4.3.1"
     okhttp_log = "com.squareup.okhttp3:logging-interceptor:4.3.1"
     retrofit = "com.squareup.retrofit2:retrofit:2.7.1"
-    retrofit2_gson = "com.squareup.retrofit2:converter-gson:latest.version"
-    retrofit2_rxjava2 = "com.squareup.retrofit2:adapter-rxjava2:latest.version"
+    retrofit_gson = "com.squareup.retrofit2:converter-gson:2.7.1"
+    retrofit_rxjava2 = "com.squareup.retrofit2:adapter-rxjava2:2.7.1"
 
     // androidx
     material = "com.google.android.material:material:1.0.0"
@@ -152,8 +153,6 @@ ext {
     autodispose_lifecycle_ktx = "com.uber.autodispose:autodispose-lifecycle-ktx:$autodispose_version"
     autodispose_android = "com.uber.autodispose:autodispose-android:$autodispose_version"
     autodispose_android_archcomponents = "com.uber.autodispose:autodispose-android-archcomponents:$autodispose_version"
-    autodispose_ktx = "com.uber.autodispose:autodispose-ktx:$autodispose_version"
-    autodispose_android_ktx = "com.uber.autodispose:autodispose-android-ktx:$autodispose_version"
-    autodispose_android_archcomponents_ktx = "com.uber.autodispose:autodispose-android-archcomponents-ktx:$autodispose_version"
+  
 
 }
